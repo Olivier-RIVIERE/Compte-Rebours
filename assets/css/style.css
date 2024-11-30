@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f2f2f2;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;  
+}
+
+input {
+  width: 100%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(138, 138, 127);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#choice, #start {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 5% auto;
+}
+
+#start {
+  background-color: rgb(95, 90, 85);
+  cursor: pointer;
+  color: rgb(202, 202, 194);
+  transition: all 0.6s ease-in;
+}
+
+#start:hover {
+  background-color: rgb(233, 227, 221);
+  color: rgb(95, 90, 85);
+}
+
+#countdownDisplay {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
